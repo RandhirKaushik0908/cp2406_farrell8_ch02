@@ -11,7 +11,6 @@ public class GetUserInfo3
       inputDevice.nextLine();
       System.out.print("Please enter your name >> ");
       name = inputDevice.nextLine();
-      System.out.println("Your name is " + name +
-         " and you are " + age + " years old.");
+      System.out.println("Your name is " + name + " and you are " + age + " years old.");
    }
 }

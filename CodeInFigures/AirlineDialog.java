@@ -5,10 +5,8 @@ public class AirlineDialog
    {
       int selection;
       boolean isYes;
-      selection = JOptionPane.showConfirmDialog(null,
-         "Do you want to upgrade to first class?"); 
+      selection = JOptionPane.showConfirmDialog(null, "Do you want to upgrade to first class?");
       isYes = (selection == JOptionPane.YES_OPTION);
-      JOptionPane.showMessageDialog(null,
-         "You responded " + isYes);
+      JOptionPane.showMessageDialog(null, "You responded " + isYes);
    }
 }
